@@ -50,3 +50,20 @@ Normal traffic is negligible ($< 15\text{ QPS}$ reads, $< 1\text{ QPS}$ writes).
   ],
   "total": 1
 }
+  "event_id": "evt_101",
+  "seats": [
+    {"seat_id": "s_12", "section": "A", "row": "1", "number": "12", "status": "AVAILABLE", "price": 150.00}
+  ]
+}
+  "hold_id": "h_9982",
+  "expires_at": "2026-10-30T14:21:00Z",
+  "status": "HELD"
+}
+  "order_id": "ord_5541",
+  "status": "CONFIRMED",
+  "total_amount": 300.00
+}
+  "tickets": [
+    {"ticket_id": "t_771", "event_name": "Live Concert", "seat": "Sec A, Row 1, Seat 12", "qr_code": "data:image/png;base64,..."}
+  ]
+}
